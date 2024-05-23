@@ -4,6 +4,10 @@ h1 {
   text-align: left;
 }
 
+body {
+  font-family: roboto;
+}
+
 body h1 {
   text-align: left;
 }
@@ -58,14 +62,17 @@ li a:hover {
   border: 3px dotted #ccc;
   padding: 20px;
   margin: 20px;
+  text-align: left;
 }
-.projects-text {
-  width: 60%;
+/* .projects-text {
+  width: 80%;
   margin: 0 auto;
-}
+  text-align: left;
+} */
 
-.projects-text ul {
+.projects ul {
   padding: 0;
+  text-align: left;
 }
 
 .projects h2 {
