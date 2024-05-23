@@ -3,50 +3,59 @@
   <head>
     <title>Dev Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
-    <h1>J.Kiprop</h1>
   </head>
+
   <body>
+    <h1>J.Kiprop</h1>
     <hr />
-    <img src="Images/tech.jpg" alt="tech " width="300" />
+
     <!-- Navigation Bar -->
-    <nav>
-      <ul>
-        <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#Education">Education</a></li>
-        <li><a href="#Experience">Experience</a></li>
-        <li><a href="#My Projects">My Projects</a></li>
-        <li><a href="#Socials">Socials</a></li>
-        <li><a href="#Reach out to us">Reach out to us</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#My Projects">My Projects</a></li>
+          <li><a href="#Socials">Socials</a></li>
+          <li><a href="#Reach out to us">Reach out to us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="Pic/deep.jpeg" alt="tech " width="300" />
     <!-- Introduction Section -->
     <section>
-      <h1><a name="Introduction">Introduction</a></h1>
-      <p>
-        My name is James Kiprop Koech. I am a Fullstack Software Development
-        student at GOMYCODE Kenya and a tech enthusiast.<br />
-        I'm fascinated with how AI has made significant progress over the past
-        two decades and this made me want to be part<br />
-        of the AI revolution and not just to witness it happening. I am also
-        interested in exploring the broadness of the <br />
-        tech ecosystem and the vital role that it plays in shaping the
-        future.<br />
-      </p>
+      <div class="Intro">
+        <h1><a id="Introduction">Introduction</a></h1>
+        <p>
+          My name is James Kiprop Koech. I am a Fullstack Software Development
+          student at GOMYCODE Kenya and a tech enthusiast.<br />
+          I'm fascinated with how AI has made significant progress over the past
+          two decades and this made me want to be part<br />
+          of the AI revolution and not just to witness it happening. I am also
+          interested in exploring the broadness of the <br />
+          tech ecosystem and the vital role that it plays in shaping the
+          future.<br />
+        </p>
+      </div>
     </section>
 
     <!-- Education-->
     <section>
-      <h1><a name="Education">Education</a></h1>
+      <div class="education">
+        <h1><a name="Education">Education</a></h1>
 
-      <h3>GOMYCODE Kenya</h3>
-      <p>Fullstack Software development Bootcamp</p>
-      <p>May 2024- November 2024</p>
+        <h4>GOMYCODE Kenya</h4>
+        <p>Fullstack Software development Bootcamp</p>
+        <p>May 2024- November 2024</p>
+      </div>
     </section>
+
     <!-- Experience-->
     <section id="experience">
-      <div>
+      <div class="my-experience">
         <h2><a name="Experience">Experience</a></h2>
-        <h3><a href="#https://www.oracle.com/ke/">Oracle</a></h3>
+        <h4><a href="#https://www.oracle.com/ke/">Oracle</a></h4>
         <p>Senior software engineer and Devops expert</p>
         <p>2022 - 2025</p>
         <p>
@@ -59,56 +68,70 @@
         </p>
       </div>
     </section>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/UB1O30fR-EE?si=P9MAdOy0xUzQvPdL"
-    >
-    </iframe>
+    <div class="tube-video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/UB1O30fR-EE?si=P9MAdOy0xUzQvPdL"
+      >
+      </iframe>
+    </div>
 
     <!--My Projects-->
     <section>
-      <h2><a name="My Projects">My Projects</a></h2>
-      <p>
-        I have participated in a number of freelance software development gigs
-        on upwork and have been successful in creating a number of<br />
-        projects which have been used as commerce websites for marketing and
-        setting up business domains in the real word.<br />
-        Some of the major projects that I have taken part in include:
-
-        <li><a href="#Mayhem">Mayhem</a></li>
-        <li><a href="#Quantum">Quantum</a></li>
-        <li><a href="#LadyG massage parlour">LadyG massage parlour</a></li>
-        <li><a href="#Troy Davis">Troy Davis</a></li>
-        <li><a href="#Trellis installation">Trellis installation</a></li>
-      </p>
+      <div class="projects">
+        <h2><a name="My Projects">My Projects</a></h2>
+        <div class="projects-text">
+          <p>
+            I have participated in a number of freelance software development
+            gigs on upwork and have been successful in creating a number of<br />
+            projects which have been used as commerce websites for marketing and
+            setting up business domains in the real word.<br />
+            Some of the major projects that I have taken part in include:
+          </p>
+          <br />
+          <ul>
+            <li><a href="#Mayhem">Mayhem</a></li>
+            <li><a href="#Quantum">Quantum</a></li>
+            <li><a href="#LadyG massage parlour">LadyG massage parlour</a></li>
+            <li><a href="#Troy Davis">Troy Davis</a></li>
+            <li><a href="#Trellis installation">Trellis installation</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
+
     <!--Social media Platforms-->
-    <h2><a name="Socials">Socials</a></h2>
-    <div>
-      <li><a href="#https://www.linkedin.com/feed/">Linkedin</a></li>
-      <li><a href="#https://x.com/home">X</a></li>
-      <li><a href="#https://wa.me/qr/64R253TXTOTMA1">Whatsapp</a></li>
-    </div>
     <section>
-      <h2><a name="Reach out to us">Reach out to us</a></h2>
-      <form action="">
-        <div>
+      <div class="socials">
+        <h2><a name="Socials">Socials</a></h2>
+        <ol>
+          <li><a href="#https://www.linkedin.com/feed/">Linkedin</a></li>
+          <li><a href="#https://x.com/home">X</a></li>
+          <li><a href="#https://wa.me/qr/64R253TXTOTMA1">Whatsapp</a></li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <div class="reach-out">
+        <h2><a name="Reach out to us">Reach out to us</a></h2>
+        <form action="">
           <label>Name</label>
           <input type="Text" name="Name" />
-        </div>
-        <br />
-        <div>
+          <br />
+          <br />
           <label>Contact</label>
           <input type="Number" name="enterNumber" />
-        </div>
-        <br />
-        <div>
-          <label>Email</label>
-          <input type="text" name="emailAddress" />
-        </div>
-      </form>
+          <br />
+          <p>
+            <label>Email</label>
+            <input type="text" name="emailAddress" />
+          </p>
+        </form>
+      </div>
     </section>
+
     <hr />
     <footer></footer>
   </body>

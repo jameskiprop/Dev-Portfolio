@@ -1,6 +1,95 @@
 h1 {
   color: black;
-
   font-family: roboto, Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
+}
+
+body h1 {
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.navbar li {
+  float: left;
+  padding: 10px 16px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+.Intro {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.education {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.my-experience {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.tube-video {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.projects {
+  /* text-align: left; */
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.projects-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.projects-text ul {
+  padding: 0;
+}
+
+.projects h2 {
+  text-align: left;
+}
+.projects li a {
+  color: rgb(218, 31, 103);
+}
+.projects ul {
+  list-style-type: none;
+}
+
+.socials {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.socials h2 {
+  text-align: left;
+}
+
+.reach-out {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
 }
